@@ -1,0 +1,25 @@
+div {
+    height: 220px;
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px black;
+    transition: 1s ;
+}
+
+img {
+    height: 120px;
+    width: 200px;
+    border-radius: 8px 8px 0 0;
+}
+
+h3, p {
+    margin-left: 3px;
+}
+
+div:hover {
+    box-shadow: 4px 4px 20px black;
+    
+}

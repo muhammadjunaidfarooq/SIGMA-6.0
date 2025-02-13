@@ -1,0 +1,39 @@
+#container {
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(40, 126, 160);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.boxes {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(113, 124, 128);
+}
+
+#nav {
+    height: 50px;
+    width: 900px;
+    background-color: rgb(179, 89, 152);
+    border: 2px solid rgb(40, 126, 160);
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.inner{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    line-height: 50px;
+    margin-left: 10px;
+}

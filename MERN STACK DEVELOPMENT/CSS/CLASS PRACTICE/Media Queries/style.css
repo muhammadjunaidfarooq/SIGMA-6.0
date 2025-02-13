@@ -1,0 +1,29 @@
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media (min-width: 700px) {
+    h1 {
+        background-color: pink;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        background-color: cadetblue;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    h1 {
+        background-color: indigo;
+    }
+}
+
+@media (orientation: landscape) {
+    h1{ 
+        background-color: aqua;
+        color: yellow;
+    } 
+}
