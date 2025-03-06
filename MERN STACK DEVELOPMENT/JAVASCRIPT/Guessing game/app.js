@@ -7,15 +7,15 @@ while(true) {
         if (userGuess == randomNumber) {
             console.log("You Won");
             break;
+        }  else if (userGuess > randomNumber){
+            userGuess = prompt("You guess is too big, Take a smaller number:");
         } else {
-            console.log("You Loss, Please try again!");
+             userGuess = prompt("You guess is too small, Take a bigger number:");
         }
     } else if (userGuess == "quit"){
         console.log("You quit the game! And random Number is", randomNumber);
         break;
-    } else if (userGuess > randomNumber){
-        userGuess = prompt("You guess is too big, Take a smaller number:");
     } else {
-         userGuess = prompt("You guess is too small, Take a bigger number:");
+        userGuess = prompt(`Please valid number ranges between 1 and ${maxNumber} :`);
     }
 }
