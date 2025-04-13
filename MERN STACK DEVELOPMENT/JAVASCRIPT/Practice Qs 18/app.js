@@ -9,4 +9,4 @@ function getSum(n) {
     console.log(sum);
 }
 
-getSum(3);
+getSum(2);
