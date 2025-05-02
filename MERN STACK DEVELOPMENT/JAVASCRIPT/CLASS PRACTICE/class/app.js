@@ -1,7 +1,12 @@
-function print1to10 () {
-    for (let i=1; i<=10; i++) {
-        console.log(i);
+const calculator = {
+    num: 55,
+    add(a,b){
+        return(a+b);
+    },
+    sub(a,b){
+        return(a-b);
+    },
+    mult(a,b){
+        return(a*b);
     }
-};
-
-print1to10();
+}

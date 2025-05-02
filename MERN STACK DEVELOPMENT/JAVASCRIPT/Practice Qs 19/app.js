@@ -6,4 +6,4 @@ function concate(str) {
     return result;
 }
 
-console.log(concate(["Hello ", "Junaid", "!"]));  
+console.log(concate(["Hello ", "Junaid", "!"])); 
