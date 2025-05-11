@@ -1,13 +1,18 @@
-const student = {
-    name : "Ali",
-    age : 14,
-    class : 9,
-    subjects : ["physics", "chemistry", "computer", "math"],
-    username : "ali@123",
-    password : "abcd",
-    city : "Feroza"
+let btns = document.querySelectorAll("button");
+
+for (btn of btns) {
+    btn.addEventListener("click", sayHello);
+    btn.addEventListener("click", name);
+    btn.addEventListener("dblclick", function() {
+        console.log("You double clicked me....")
+    } )
+   
 }
 
-// let user = student.username;
+function sayHello() {
+    console.log("Hello!");
+}
 
-let {username: user,  password: secret, city: place = "Lahore"} = student;
+function name(){
+    console.log("Junaid")
+}
