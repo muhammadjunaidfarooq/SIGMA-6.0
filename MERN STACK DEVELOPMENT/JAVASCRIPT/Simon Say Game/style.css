@@ -1,0 +1,51 @@
+.outerBox {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.purple{
+    background-color: rgb(179, 67, 142);
+}
+.yellow{
+    background-color: rgb(192, 169, 39);
+}
+.brown{
+    background-color: rgb(189, 110, 36);
+}
+.red{
+    background-color: rgb(242, 43, 43);
+}
+
+.innerBoxes {
+    border: 8px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.gameFlash {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: green;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    height: 25px;
+    width: 25px;
+}
+
+h1{
+    margin-left: 50px;
+    margin-top: 50px;
+}

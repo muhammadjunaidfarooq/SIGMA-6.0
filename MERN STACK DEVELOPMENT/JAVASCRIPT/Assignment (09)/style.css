@@ -1,0 +1,24 @@
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: seagreen;
+}
+
+#box2{
+    height: 250px;
+    width: 250px;
+    background-color: yellowgreen;
+    overflow: scroll; 
+    text-align: center;
+}
+
+p{
+    height: 300px;
+    width: 200px;
+}
+
+h1 {
+    border: 2px solid greenyellow;
+    border-radius: 3px;
+    text-align: center;
+}
