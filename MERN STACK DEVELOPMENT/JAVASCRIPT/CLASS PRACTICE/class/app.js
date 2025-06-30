@@ -1,19 +1,15 @@
-let div = document.querySelector("div");
-let ul = document.querySelector("ul");
-let lis = document.querySelectorAll("li");
+let jsonRes = '{"fact":"The Maine Coon is 4 to 5 times larger than the Singapura, the smallest breed of cat.","length":84}';
+console.log(jsonRes);
+console.log(jsonRes.fact);
 
-div.addEventListener("click", function () {
-  console.log("Div is clicked..");
-});
+let validRes = JSON.parse(jsonRes);
+console.log(validRes);
+console.log(validRes.fact);
 
-ul.addEventListener("click", function (event) {
-    event.stopPropagation();
-  console.log("Ul is clicked...");
-});
-
-for (li of lis) {
-  li.addEventListener("click", function (event) {
-    event.stopPropagation();
-    console.log("Li is clicked....");
-  });
+let student = {
+  name : "Junaid",
+  marks : "93"
 }
+
+// let objToJson = JSON.stringify(student);
+// console.log(objToJson);
