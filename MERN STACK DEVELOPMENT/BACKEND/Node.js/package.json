@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "random-words": "^2.0.1"
+  },
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "math.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JUNAID",
+  "license": "ISC",
+  "type": "module"
+}
