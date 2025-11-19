@@ -79,8 +79,8 @@ app.patch("/chats/:id", async (req, res) => {
 app.delete("/chats/:id", async (req, res) => {
   let { id } = req.params;
   let chatDeleted = await Chat.findByIdAndDelete(id);
-    console.log(chatDeleted);
-    res.redirect("/chats");
+  console.log(chatDeleted);
+  res.redirect("/chats");
 });
 
 app.get("/", (req, res) => {

@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model("User", userSchema);
 
-User.findByIdAndDelete({ _id: "68b7b2134953b6c99d0786c1" })
+User.findByIdAndDelete({ _id: "68c8d8733527dd4a3c7d4460" })
   .then((result) => {
     console.log(result);
   })
@@ -26,7 +26,7 @@ User.findByIdAndDelete({ _id: "68b7b2134953b6c99d0786c1" })
     console.log(err);
   });
 
-// User.findByIdAndUpdate({ _id: "68b7b2134953b6c99d0786c0"}, { age: 42 }, {new: true})
+// User.findByIdAndUpdate({ _id: "68c8d8733527dd4a3c7d4460"}, { age: 42 }, {new: true})
 //   .then((result) => {
 //     console.log(result);
 //   })
@@ -34,7 +34,7 @@ User.findByIdAndDelete({ _id: "68b7b2134953b6c99d0786c1" })
 //     console.log(err);
 //   });
 
-// User.findOne({_id: "68b7b2134953b6c99d0786c0"})
+// User.findOne({_id: "68c8d8733527dd4a3c7d4460"})
 //     .then((result) => {
 //         console.log(result);
 //     })
@@ -51,9 +51,9 @@ User.findByIdAndDelete({ _id: "68b7b2134953b6c99d0786c1" })
 //     .catch((err) => { console.log(err) });
 
 // const user2 = new User({
-//     name: "eve",
-//     email: "eve@yahoo.in",
-//     age: 48,
+//     name: "adam",
+//     email: "adam@yahoo.in",
+//     age: 32,
 // });
 
 // user2

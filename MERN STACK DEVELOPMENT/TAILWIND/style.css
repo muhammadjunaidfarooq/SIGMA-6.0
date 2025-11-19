@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+.box {
+  @apply text-white text-center m-4 px-12 border-4 rounded-xl border-black
+}

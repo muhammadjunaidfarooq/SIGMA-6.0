@@ -5,4 +5,4 @@ import { generate} from "random-words";
 console.log(generate());
 
 console.log(mul(3,4));
-console.log(PI);
+console.log(PI); 

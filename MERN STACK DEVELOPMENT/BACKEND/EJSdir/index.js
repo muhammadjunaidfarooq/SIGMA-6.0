@@ -35,5 +35,5 @@ app.get("/ig/:username", (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log("App is listening");
+    console.log("App is listening");  
 });

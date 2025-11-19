@@ -22,6 +22,7 @@ const bookSchema = new mongoose.Schema({
   price: {
     type: Number,
     min: [1, "Very low price for amazon selling."],
+    required: true,
   },
   discount: {
     type: Number,
@@ -36,7 +37,7 @@ const bookSchema = new mongoose.Schema({
 
 const Book = mongoose.model("Book", bookSchema);
 
-Book.findByIdAndUpdate('68b7f7174c9bd70700bb83e2', { price: -500 }, {runValidators: true})
+Book.findByIdAndUpdate('68c8d6e4615ced89fc0f1aa8', { discount: 100 }, {runValidators: true})
   .then((result) => {
     console.log(result);
   })
@@ -46,7 +47,8 @@ Book.findByIdAndUpdate('68b7f7174c9bd70700bb83e2', { price: -500 }, {runValidato
 
 // let book1 = new Book({
 //   title: "Biology",
-//   author: "Waqas",
+//   author: "Noman",
+//   price: 300,
 // });
 
 // book1

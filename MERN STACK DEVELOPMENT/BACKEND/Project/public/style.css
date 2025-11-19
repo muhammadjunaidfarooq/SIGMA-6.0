@@ -1,0 +1,21 @@
+body{
+    margin-left: 50px;
+}
+.chat {
+    background-color:rgb(188, 219, 147);
+    padding: 20px;
+    border-radius: 20px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.msg{
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
